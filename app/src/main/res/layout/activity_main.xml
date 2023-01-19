@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/ic_logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16sp"
+        android:text="Play Ground Mobile"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue_200"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_open_registerUserAcitivity"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_main_activity"
+            android:text="Cadastrar Usuário"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn_open_viewUserAcitivity"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_main_activity"
+            android:text="Visualizar Usuários"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</LinearLayout>
